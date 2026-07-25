@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="Paddock is a professional DIY auto workshop coming to the DMV. Rent a lift, tools, and workspace by the hour.">
-<title>Paddock | The DMV's DIY Auto Workshop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <meta
+        name="description"
+        content="Paddock is a professional DIY auto workshop coming to the DMV. Rent a lift, tools, and workspace by the hour.">
 
-<style>
-:root{--ink:#111820;--graphite:#202a34;--slate:#596977;--mist:#edf1f4;--paper:#f8f7f3;--white:#fff;--bronze:#a57a3d;--line:rgba(17,24,32,.12);--shadow:0 20px 60px rgba(17,24,32,.12);--radius:18px;--max:1180px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(calc(100% - 40px),var(--max));margin:auto}.eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze);font-weight:700}.nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(14px);background:rgba(248,247,243,.88);border-bottom:1px solid var(--line)}.nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:1.1rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.nav-links{display:flex;align-items:center;gap:24px;color:var(--slate);font-size:.95rem}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid transparent;font-weight:700;transition:.2s;cursor:pointer}.button-primary{background:var(--ink);color:#fff;box-shadow:0 10px 24px rgba(17,24,32,.18)}.button-primary:hover{transform:translateY(-1px);background:var(--graphite)}.button-secondary{border-color:var(--line);background:rgba(255,255,255,.75)}.hero{padding:92px 0 72px;overflow:hidden;position:relative}.hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(165,122,61,.15),rgba(165,122,61,0) 70%);right:-180px;top:-120px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}h1,h2,h3{line-height:1.08;margin:0}h1{font-size:clamp(3.2rem,8vw,6.8rem);letter-spacing:-.055em}.hero-copy{font-size:1.2rem;color:var(--slate);max-width:660px;margin:24px 0 32px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-proof{display:flex;flex-wrap:wrap;gap:18px;margin-top:30px;color:var(--slate);font-size:.95rem}.hero-proof span:before{content:"✓";color:var(--bronze);margin-right:8px;font-weight:800}.visual{min-height:520px;background:linear-gradient(180deg,rgba(17,24,32,.08),rgba(17,24,32,.6)),radial-gradient(circle at 30% 30%,rgba(165,122,61,.25),transparent 38%),linear-gradient(135deg,#586572,#202a34 62%,#111820);border-radius:28px;box-shadow:var(--shadow);position:relative;overflow:hidden}.visual:before,.visual:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.22);border-radius:14px;transform:rotate(-8deg)}.visual:before{inset:52px 50px 140px 120px}.visual:after{inset:160px 90px 40px 30px;transform:rotate(7deg)}.lift-line{position:absolute;width:72%;height:8px;background:var(--bronze);left:14%;top:48%;box-shadow:0 0 28px rgba(165,122,61,.5)}.visual-label{position:absolute;left:32px;bottom:28px;color:#fff}.visual-label strong{display:block;font-size:1.35rem}.visual-label span{color:rgba(255,255,255,.75)}section{padding:88px 0}.section-head{max-width:760px;margin-bottom:42px}h2{font-size:clamp(2.2rem,5vw,4rem);letter-spacing:-.04em;margin-top:10px}.section-copy{color:var(--slate);font-size:1.08rem;margin-top:18px}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:var(--radius);padding:26px}.card-number{font-size:.78rem;color:var(--bronze);font-weight:800;letter-spacing:.12em;margin-bottom:50px}.card h3{font-size:1.25rem;margin-bottom:10px}.card p{margin:0;color:var(--slate)}.dark{background:var(--ink);color:#fff}.dark .section-copy{color:rgba(255,255,255,.68)}.culture-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}.culture-intro{position:sticky;top:112px}.culture-statement{font-size:clamp(1.6rem,3.4vw,2.7rem);line-height:1.22;letter-spacing:-.025em;margin:26px 0;color:var(--graphite)}.culture-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.culture-card{min-height:230px;display:flex;flex-direction:column;justify-content:space-between}.culture-card .card-number{margin-bottom:32px}.culture-card-wide{grid-column:1/-1;min-height:auto;background:var(--graphite);color:#fff}.culture-card-wide p{color:rgba(255,255,255,.68)}.code-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 24px;margin-top:22px}.code-item{padding-top:10px;border-top:1px solid rgba(255,255,255,.14);font-size:.95rem}.culture-signoff{margin-top:24px;color:var(--bronze);font-weight:800;letter-spacing:.04em}.audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.audience{min-height:210px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(145deg,#2d3944,#111820);color:#fff;position:relative;overflow:hidden}.audience p{color:rgba(255,255,255,.68)}.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.price{padding:34px;background:#fff;border:1px solid var(--line);border-radius:24px}.price-featured{background:var(--graphite);color:#fff}.price h3{font-size:1.6rem}.amount{font-size:2.8rem;font-weight:800;margin:16px 0 4px}.meta{color:var(--slate)}.price-featured .meta{color:rgba(255,255,255,.62)}.price ul{padding-left:18px;margin:24px 0 0}.waitlist{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}form{background:#fff;border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:7px}.field.full{grid-column:1/-1}label{font-size:.86rem;font-weight:700;color:var(--graphite)}input,select,textarea{width:100%;border:1px solid var(--line);border-radius:12px;background:#fbfbfa;padding:14px;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--bronze);box-shadow:0 0 0 3px rgba(165,122,61,.12)}textarea{min-height:110px;resize:vertical}.form-note{font-size:.82rem;color:var(--slate);margin-top:12px}.success{display:none;margin-top:14px;color:#2e6a49;font-weight:700}.faq{border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line);padding:22px 0}summary{cursor:pointer;font-weight:750;list-style:none;display:flex;justify-content:space-between}summary:after{content:"+";color:var(--bronze);font-size:1.2rem}details[open] summary:after{content:"–"}details p{color:var(--slate);max-width:780px}footer{padding:34px 0 44px;border-top:1px solid var(--line);color:var(--slate)}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}@media(max-width:900px){.hero-grid,.waitlist,.pricing-grid,.culture-wrap{grid-template-columns:1fr}.culture-intro{position:static}.feature-grid{grid-template-columns:1fr 1fr}.audience-grid{grid-template-columns:1fr}.visual{min-height:420px}.nav-links a:not(.button){display:none}}@media(max-width:600px){.culture-grid,.code-list{grid-template-columns:1fr}.culture-card-wide{grid-column:auto}.container{width:min(calc(100% - 24px),var(--max))}.hero{padding-top:64px}section{padding:68px 0}.feature-grid,.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}h1{font-size:3.25rem}.visual{min-height:340px}}
-</style>
+    <title>Paddock | The DMV's DIY Auto Workshop</title>
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="assets/favicon/favicon.svg">
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css">
 </head>
-<body>
-<nav class="nav"><div class="container nav-inner"><a class="brand" href="#">Paddock</a><div class="nav-links"><a href="#concept">The Concept</a><a href="#culture">Culture</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a class="button button-primary" href="#waitlist">Join the Waitlist</a></div></div></nav>
+<body id="top">
+<nav class="nav">
+    <div class="container nav-inner">
+
+        <a class="brand" href="#top" aria-label="Paddock Home">
+            <img
+                src="assets/logo/wordmark-black.svg"
+                alt="Paddock"
+                class="brand-logo">
+        </a>
+
+        <div class="nav-links">
+            <a href="#concept">The Concept</a>
+            <a href="#culture">Culture</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+
+            <a class="button button-primary" href="#waitlist">
+                Join the Waitlist
+            </a>
+        </div>
+
+    </div>
+</nav>
 <main>
 <section class="hero"><div class="container hero-grid"><div><div class="eyebrow">Coming to the DMV</div><h1>Your garage. Without the garage.</h1><p class="hero-copy">Paddock is a clean, professional DIY auto workshop where you can rent a lift, tools, and workspace by the hour—whether you drive a commuter, classic, import, truck, or track car.</p><div class="hero-actions"><a class="button button-primary" href="#waitlist">Become a Founding Member</a><a class="button button-secondary" href="#concept">See How It Works</a></div><div class="hero-proof"><span>Professional lifts</span><span>Shared tools</span><span>No long-term commitment</span></div></div><div class="visual"><div class="lift-line"></div><div class="visual-label"><strong>Built for people who do the work.</strong><span>Clean bays. Serious tools. Everyone welcome.</span></div></div></div></section>
 <section id="concept"><div class="container"><div class="section-head"><div class="eyebrow">The Concept</div><h2>A professional workspace for every kind of car person.</h2><p class="section-copy">Most people have the ability to work on their own vehicles—but not the space, equipment, or tools. Paddock removes those barriers.</p></div><div class="feature-grid"><article class="card"><div class="card-number">01</div><h3>Book a Bay</h3><p>Reserve a lift bay or flat work bay by the hour, right from your phone.</p></article><article class="card"><div class="card-number">02</div><h3>Use the Tools</h3><p>Access professional-grade rolling toolboxes and specialty equipment.</p></article><article class="card"><div class="card-number">03</div><h3>Do the Work</h3><p>Maintain, repair, or modify your vehicle in a clean and organized shop.</p></article><article class="card"><div class="card-number">04</div><h3>Join the Community</h3><p>Meet enthusiasts, learn new skills, and build alongside people who care.</p></article></div></div></section>
@@ -21,6 +51,32 @@
 <section id="waitlist"><div class="container waitlist"><div><div class="eyebrow">Founding Member Waitlist</div><h2>Help bring Paddock to the DMV.</h2><p class="section-copy">Joining the waitlist helps us prove demand, choose the right location, and build the shop around the people who will actually use it.</p><p class="section-copy">There is no commitment and no payment required.</p></div><form id="waitlistForm"><div class="form-grid"><div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div><div class="field"><label for="zip">ZIP Code</label><input id="zip" name="zip" inputmode="numeric" pattern="[0-9]{5}" required></div><div class="field"><label for="vehicle">Primary Vehicle</label><input id="vehicle" name="vehicle" placeholder="e.g., 2018 BMW 340i"></div><div class="field"><label for="frequency">Expected Use</label><select id="frequency" name="frequency" required><option value="">Select one</option><option>Once or twice per year</option><option>Every few months</option><option>About once per month</option><option>Multiple times per month</option></select></div><div class="field"><label for="drive">How far would you drive?</label><select id="drive" name="drive" required><option value="">Select one</option><option>Up to 15 minutes</option><option>Up to 30 minutes</option><option>Up to 45 minutes</option><option>More than 45 minutes</option></select></div><div class="field full"><label for="project">What would you use Paddock for?</label><textarea id="project" name="project" placeholder="Maintenance, brakes, suspension, track prep, restoration, detailing, etc."></textarea></div><div class="field full"><button class="button button-primary" type="submit">Join the Founding Member Waitlist</button><div class="success" id="successMessage">You’re on the list. Welcome to Paddock.</div><div class="form-note">By submitting, you agree to receive occasional updates about Paddock. No spam.</div></div></div></form></div></section>
 <section id="faq"><div class="container"><div class="section-head"><div class="eyebrow">FAQ</div><h2>What future members want to know.</h2></div><div class="faq"><details><summary>Do I need professional mechanic experience?</summary><p>No. Paddock is being designed for a wide range of skill levels. All users will complete a safety orientation before using the shop.</p></details><details><summary>Will tools be included?</summary><p>Standard rolling toolboxes are planned to be included with bay access. Specialty tools and equipment may carry an additional rental charge.</p></details><details><summary>Can I bring my own tools and parts?</summary><p>Yes. Members and guests will be able to bring their own tools, parts, fluids, and supplies, subject to shop safety and disposal policies.</p></details><details><summary>Where will Paddock be located?</summary><p>The final site has not been selected. Waitlist ZIP codes and travel preferences will help determine the best DMV location.</p></details><details><summary>Can I leave a vehicle overnight?</summary><p>Limited project storage may be offered for approved multi-day jobs. Availability, pricing, and policies will be announced before opening.</p></details><details><summary>Is Paddock a repair shop?</summary><p>No. Paddock provides the space, lifts, and tools for customers to work on their own vehicles. It is not a traditional mechanic or repair service.</p></details></div></div></section>
 </main>
-<footer><div class="container footer-inner"><div class="brand">Paddock</div><div>The Garage, Reimagined.</div><div>© <span id="year"></span> Paddock</div></div></footer>
+<footer>
+
+    <div class="container footer-inner">
+
+        <a
+            class="brand"
+            href="#top"
+            aria-label="Paddock Home">
+
+            <img
+                class="footer-logo"
+                src="assets/logo/wordmark-black.svg"
+                alt="Paddock">
+
+        </a>
+
+        <div>
+            The Garage, Reimagined.
+        </div>
+
+        <div>
+            © <span id="year"></span> Paddock
+        </div>
+
+    </div>
+
+</footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();const form=document.getElementById('waitlistForm'),success=document.getElementById('successMessage');form.addEventListener('submit',e=>{e.preventDefault();const data=Object.fromEntries(new FormData(form).entries());const entries=JSON.parse(localStorage.getItem('paddockWaitlist')||'[]');entries.push({...data,submittedAt:new Date().toISOString()});localStorage.setItem('paddockWaitlist',JSON.stringify(entries));success.style.display='block';form.reset();});</script>
 </body></html>
