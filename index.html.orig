@@ -676,17 +676,6 @@
 
 </footer>
 <script>
-    const emailInput = document.getElementById("email");
-    const form = document.querySelector('form[name="waitlist"]');
-    const submitButton = document.getElementById("submit-button");
-
-    form.addEventListener("submit", () => {
-        emailInput.value = emailInput.value
-            .trim()
-            .toLowerCase();
-
-        submitButton.disabled = true;
-        submitButton.textContent = "Submitting...";
-    });
+    document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 </body></html>
