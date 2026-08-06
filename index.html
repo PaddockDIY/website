@@ -669,7 +669,7 @@
         </div>
 
         <div>
-            © <span id="year"></span> Paddock
+            © <span id="year"></span> Paddock, All Rights Reserved.
         </div>
 
     </div>
@@ -679,6 +679,8 @@
     const emailInput = document.getElementById("email");
     const form = document.querySelector('form[name="waitlist"]');
     const submitButton = document.getElementById("submit-button");
+
+    document.getElementById("year").textContent = new Date().getFullYear();
 
     form.addEventListener("submit", () => {
         emailInput.value = emailInput.value
